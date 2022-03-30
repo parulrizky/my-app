@@ -1,0 +1,214 @@
+h1 {
+    padding-left: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.Track {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e6e6e6;
+    margin-bottom: 30px;
+    padding: 0 14px;
+}
+
+.title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+.track-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.track-item {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.album {
+    border-radius: 6px;
+    background-color: #23214f;
+    width: 90%;
+    padding: 18px 0;
+    border: 1px solid #1C1A3F;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.album:hover {
+    background-color: #2a275e;
+}
+
+.album-image {
+    width: 84%;
+    margin: auto;
+}
+
+.album-image img {
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.album-info {
+    padding: 22px;
+}
+
+.album-info h2 {
+    font-size: 14px;
+    color: #e6e6e6;
+}
+
+.album-info h3 {
+    margin-bottom: 30px;
+    font-size: 12px;
+    color: #cfcfcf;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.album-info button {
+    background-color: #0e0d20;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color: #e6e6e6;
+    padding: 8px 18px;
+    width: 80%;
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+    opacity: 1; 
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, 
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(8, 8, 8, 0.1) 0px 0px 0px 1px inset;
+    box-sizing: border-box;  
+    border: 0;
+}
+
+.album-info button:hover {
+    background-color: #111026;
+}
+
+.album-info button:active {
+box-shadow: inset 5px 5px 5px rgba(14, 13, 32, 0.2),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.1),
+    -5px -5px 15px rgba(14, 13, 32, 0.2);
+
+}
+
+@media (max-width:768px) {
+    .title {
+        font-size: 2.5rem;
+    }
+    .track-item {
+        width: 50%;
+    }
+}
+
+@media (max-width:480px) {
+    .title {
+        font-size: 2rem;
+    }
+    .track-item {
+        width: 100%;
+    }
+}
+
+.submit {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.login button {
+    float: right;
+    margin: 10px 10px;
+    padding: 9.5px 16px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    background-color: #007e8f;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    opacity: 1; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, 
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(8, 8, 8, 0.1) 0px 0px 0px 1px inset;
+    box-sizing: border-box;  
+    border: 0;
+}
+
+.login button:hover {
+    background-color: #111026;
+}
+
+.login button:active {
+box-shadow: inset 5px 5px 5px rgba(14, 13, 32, 0.2),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.1),
+    -5px -5px 15px rgba(14, 13, 32, 0.2);
+
+}
+
+.button-search {
+    margin: 20px 10px;
+    padding: 9.5px 16px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    background-color: #111026;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    opacity: 1; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, 
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(8, 8, 8, 0.1) 0px 0px 0px 1px inset;
+    box-sizing: border-box;  
+    border: 0;
+}
+
+.button-search:hover {
+    background-color: #007e8f;
+}
+
+.button-search:active {
+box-shadow: inset 5px 5px 5px rgba(14, 13, 32, 0.2),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.1),
+    -5px -5px 15px rgba(14, 13, 32, 0.2);
+
+}
+
+.search-input {
+    width: 40%;
+    border: 3px solid #007e8f;
+    padding: 5px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 5px;
+    outline: none;
+    color: #007e8f;
+    background-color: #e6f8fa;
+  }
+  
+  .search-input:focus {
+    color: #007e8f;
+  }
+  
+  .search-input:hover {
+    background-color: #fff;
+  }
