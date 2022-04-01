@@ -183,7 +183,7 @@ box-shadow: inset 5px 5px 5px rgba(14, 13, 32, 0.2),
 }
 
 .button-search:hover {
-    background-color: #007e8f;
+    background-color: #7d7e7e;
 }
 
 .button-search:active {
@@ -195,18 +195,18 @@ box-shadow: inset 5px 5px 5px rgba(14, 13, 32, 0.2),
 
 .search-input {
     width: 40%;
-    border: 3px solid #007e8f;
+    border: 3px solid #7d7e7e;
     padding: 5px;
     height: 20px;
     margin-right: 5px;
     border-radius: 5px;
     outline: none;
-    color: #007e8f;
+    color: #7d7e7e;
     background-color: #e6f8fa;
   }
   
   .search-input:focus {
-    color: #007e8f;
+    color: #7d7e7e;
   }
   
   .search-input:hover {

@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 const TrackList = ({source, title, artist, album}) => {
+    const [active, setActive] = useState(null)
     return (
         <div className= "track-item">
             <div className="album">
@@ -10,7 +11,7 @@ const TrackList = ({source, title, artist, album}) => {
                 <div className="album-info">
                     <h2>{title}</h2>
                     <h3>{artist} - {album}</h3>
-                    <button>select</button>
+                    <button type="submit" onClick={() => setActive(!active)}>{ active ? 'Deselect' : 'Select'}</button>
                 </div>
             </div>
         </div>
