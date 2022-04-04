@@ -1,0 +1,73 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+}
+
+.navbar-logo h3 {
+    padding: 10px 10px;
+    color: #f2f2f2;
+}
+
+.btn-login {
+    float: right;
+    margin: 10px 10px;
+    padding: 9.5px 16px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    background-color: #00900e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+        rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+        rgba(8, 8, 8, 0.1) 0px 0px 0px 1px inset;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.btn-login:hover {
+    background-color: #0a0a0a;
+}
+
+.btn-login:active {
+    box-shadow: inset 5px 5px 5px rgba(14, 13, 32, 0.2),
+        inset -5px -5px 15px rgba(0, 0, 0, 0.1),
+        -5px -5px 15px rgba(14, 13, 32, 0.2);
+
+}
+
+.btn-logout {
+    float: right;
+    margin: 10px 10px;
+    padding: 9.5px 16px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    background-color: #bb2f28;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+        rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+        rgba(8, 8, 8, 0.1) 0px 0px 0px 1px inset;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.btn-logout:hover {
+    background-color: #a62a23;
+}
+
+.btn-logout:active {
+    box-shadow: inset 5px 5px 5px rgba(14, 13, 32, 0.2),
+        inset -5px -5px 15px rgba(0, 0, 0, 0.1),
+        -5px -5px 15px rgba(14, 13, 32, 0.2);
+
+}

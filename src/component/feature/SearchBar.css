@@ -1,0 +1,62 @@
+.search-form {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.search-input {
+    width: 40%;
+    border: 3px solid #007e8f;
+    padding: 5px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 5px;
+    outline: none;
+    color: #007e8f;
+    background-color: #e6f8fa;
+}
+
+.search-input:focus {
+    color: #007e8f;
+}
+
+.search-input:hover {
+    background-color: #fff;
+}
+
+.btn-search {
+    margin: 20px 10px;
+    padding: 9.5px 16px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    background-color: #007e8f;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+        rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+        rgba(8, 8, 8, 0.1) 0px 0px 0px 1px inset;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.btn-search:hover {
+    background-color: #007181;
+}
+
+.btn-search:active {
+    box-shadow: inset 5px 5px 5px rgba(14, 13, 32, 0.2),
+        inset -5px -5px 15px rgba(0, 0, 0, 0.1),
+        -5px -5px 15px rgba(14, 13, 32, 0.2);
+
+}
+
+.search-error {
+    color: #ff4e44;
+    position: absolute;
+    bottom: -1.25rem;
+    left: 50%;
+    transform: translateX(-70%);
+} 

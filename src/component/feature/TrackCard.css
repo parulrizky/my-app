@@ -1,0 +1,106 @@
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.track-item {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.album {
+    border-radius: 6px;
+    background-color: #23214f;
+    width: 90%;
+    padding: 18px 0;
+    border: 1px solid #1C1A3F;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.album:hover {
+    background-color: #2a275e;
+}
+
+.album-image {
+    width: 84%;
+    margin: auto;
+}
+
+.album-image img {
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.album-info {
+    padding: 22px;
+    text-align: left;
+}
+
+.album-info h2 {
+    font-size: 16px;
+    color: #e6e6e6;
+}
+
+.album-info h3 {
+    font-size: 14px;
+    color: #e6e6e6;
+    margin-bottom: 5px;
+}
+
+.album-info h4 {
+    margin-bottom: 26px;
+    font-size: 14px;
+    color: #cfcfcfe3;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.album-info button {
+    background-color: #0e0d20;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color: #e6e6e6;
+    padding: 8px 18px;
+    width: 80%;
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+    opacity: 1;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+        rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+        rgba(8, 8, 8, 0.1) 0px 0px 0px 1px inset;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.album-info button:hover {
+    background-color: #282828;
+}
+
+.album-info button:active {
+    box-shadow: inset 5px 5px 5px rgba(14, 13, 32, 0.2),
+        inset -5px -5px 15px rgba(0, 0, 0, 0.1),
+        -5px -5px 15px rgba(14, 13, 32, 0.2);
+
+}
+
+@media (max-width:768px) {
+    .track-item {
+        width: 50%;
+    }
+}
+
+@media (max-width:480px) {
+    .track-item {
+        width: 100%;
+    }
+}
