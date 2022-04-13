@@ -6,12 +6,15 @@
 }
 .modal-icon {
     font-size: 5rem;
-    color: #007e8f;
+    color: #7DB1FF;
+    border: 2px solid #002C6E;
+    background-color: #002C6E;
+    border-radius: 50px;
 }
 .modal-notif {
     position: fixed;
     right: 2rem;
-    background-color: red;
+    background-color: #b30000;
     padding: 0.5rem;
     border-radius: 50%;
 } 

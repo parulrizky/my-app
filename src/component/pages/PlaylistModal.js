@@ -69,8 +69,8 @@ function PlaylistModal({ show, onClose }) {
                         </div>
                     </div>
                     <div className="modal-footer">
-                        <button className="playlist-submit-button" type='submit'>Submit</button>
-                        <button className="playlist-cancel-button" type='button' onClick={onClose}>Cancel</button>
+                    <button className="btn-playlist btn-submit" type='submit'>Submit</button>
+                        <button className="btn-playlist btn-cancel" type='button' onClick={onClose}>Cancel</button>
                     </div>
                 </form>
             </div>

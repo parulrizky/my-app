@@ -1,12 +1,12 @@
 import React from 'react'
-import { useTokenContext } from '../context/Token'
 import { clearStorage } from '../../utility/storage'
 
 import './Navbar.css'
 import { login, logout } from '../../utility/auth'
+import { useSelector } from 'react-redux'
 
 function Navbar() {
-  const { token } = useTokenContext()
+  const token = useSelector((state) => state.token.value)
 
   window.addEventListener("beforeunload", () => clearStorage())
 
@@ -18,7 +18,7 @@ function Navbar() {
         {token ? (
           <button onClick={logout} className="btn-logout">Logout</button>
         ) : (
-          <button onClick={login} className="btn-login">Login to Spotify</button>
+          <button onClick={login} className="btn-login">Login</button>
         )}
       </div>
     </div>
