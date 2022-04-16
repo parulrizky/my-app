@@ -22,7 +22,7 @@ img {
 }
 
 .album:hover {
-    background-color: #2a275e;
+    background-color: #0e1e34;
 }
 
 .album-image {
@@ -83,7 +83,7 @@ img {
 }
 
 .album-info button:hover {
-    background-color: #282828;
+    background-color: #111026;
 }
 
 .album-info button:active {
@@ -94,13 +94,13 @@ img {
 }
 
 @media (max-width:768px) {
-    .track-item {
+    .track-item-playlist {
         width: 50%;
     }
 }
 
 @media (max-width:480px) {
-    .track-item {
+    .track-item-playlist {
         width: 100%;
     }
 }

@@ -31,7 +31,7 @@ const createResource = () => {
 export const trackSearch = (keyword) => {
     const params = {
         q: keyword,
-        limit: '10',
+        limit: '20',
         type: 'track'
     }
     return createResource().get('/search', { params })

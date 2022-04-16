@@ -48,7 +48,7 @@ function App() {
       getCurrentUser()
       getCurrentUserPlaylist()
     }
-  },[setToken, getCurrentUser, getCurrentUserPlaylist])
+  },[dispatch, getCurrentUser, getCurrentUserPlaylist])
 
   return (
     <>

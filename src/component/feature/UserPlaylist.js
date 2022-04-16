@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './UserPlaylist.css'
+import './css/UserPlaylist.css'
 
 function UserPlaylist({ playlist }) {
     const { name, description, images, owner} = playlist;
@@ -15,7 +15,7 @@ function UserPlaylist({ playlist }) {
                     <div>
                     <span className='description'>{!description ? "By: "+owner.display_name : description}</span>
                 </div>
-                    </div>  
+                </div>
                 </div>
             </div>
         </div>

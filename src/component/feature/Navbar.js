@@ -13,6 +13,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-logo">
+        <h2>myspotify</h2>
       </div>
       <div className="navbar-nav">
         {token ? (
